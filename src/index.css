@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  :root {
+    --primary_color: #15e783;
+    --primary_Text_color: #ffffff;
+    --secendory_Text_color: #586174;
+    --banner_color: #072e1b;
+    --secondary_banner: #0b0c0f;
+    --fotter_color: #e8eaed;
+  }
+}
