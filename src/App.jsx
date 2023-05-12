@@ -1,8 +1,7 @@
-import Menu from "./assets/component/Header/Menu";
 function App() {
   return (
     <>
-      <Menu />
+      <h1>taufik islam</h1>
     </>
   );
 }

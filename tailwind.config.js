@@ -20,7 +20,14 @@ export default {
         "2xl": "1rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        fontFamily: ["Open Sans", "sans-serif"],
+      },
+      boxShadow: {
+        customShadow: "inset 2px 11px 67px 47px rgba(0,0,0,0.57)",
+      },
+    },
   },
   plugins: [],
 };
